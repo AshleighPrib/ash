@@ -1,0 +1,19 @@
+var chart = c3.generate({
+ data: { 
+  columns: [
+         ['data1', 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+         ],
+         type: 'bar'
+},
+bar: {
+  width: {
+      ratio: 0.9
+      }
+}
+axis: {
+  y: {
+    max: 20,
+    min: 0,
+    }
+   }
+});
